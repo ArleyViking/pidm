@@ -1,24 +1,12 @@
-import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
+import { Aluno } from './Aluno';
+
+
 
 export default function App() {
   return (
-    <View style={styles.conteudo}>
-      <Text style={styles.nome}>
-        Arley Gomes
-      </Text>
-      <Text style={styles.outro_texto, styles.nome_2}>
-        Design Digital
-      </Text>
-      <Text style={styles.outro_texto}>
-        Paraipaba - CE
-      </Text>
-      <Text style={styles.outro_texto}>
-        20 anos
-      </Text>
-      <StatusBar style="auto" />
-    </View>
+    <Aluno></Aluno>
   );
 }
 
